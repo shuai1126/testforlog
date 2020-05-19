@@ -1,0 +1,257 @@
+[20200519 15:39:50.341 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 15:39:50.341 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 15:39:50.341 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 15:39:50.341 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 15:39:50.341 Server.cpp:172] [D]: init server on port[43210]
+[20200519 15:39:50.341 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 15:39:50.341 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 15:40:08.494 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 15:40:08.494 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 15:40:08.494 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 15:40:08.494 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 15:40:08.494 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 15:40:08.494 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 15:40:08.494 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 15:40:08.494 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 15:40:18.499 Client.cpp:203] [I]: bandwidth test report:
+[20200519 15:40:18.499 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 15:40:18.499 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       1.327ms   1871/1871 (100.0000%)
+[20200519 15:40:18.499 Client.cpp:45] [I]: client finish.
+[20200519 15:40:18.499 logger.h:88] [I]: Logger is shutting down.
+[20200519 15:40:18.499 Server.cpp:139] [I]: bandwidth test report:
+[20200519 15:40:18.499 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 15:40:18.499 Server.cpp:149] [I]: [0] 9.998s       2.498Mbytes     1.999Mbits/sec     1.327ms   1871/1871 (100.00%) 
+[20200519 15:40:18.499 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 16:03:33.554 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 16:03:33.554 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 16:03:33.555 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 16:03:33.555 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 16:03:33.555 Server.cpp:172] [D]: init server on port[43210]
+[20200519 16:03:33.555 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 16:03:33.555 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 16:03:42.231 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 16:03:42.231 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 16:03:42.231 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 16:03:42.231 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 16:03:42.231 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 16:03:42.232 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 16:03:42.232 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 16:03:42.232 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 16:03:52.237 Client.cpp:203] [I]: bandwidth test report:
+[20200519 16:03:52.237 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 16:03:52.237 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       0.48ms   1871/1871 (100.0000%)
+[20200519 16:03:52.237 Client.cpp:45] [I]: client finish.
+[20200519 16:03:52.237 logger.h:88] [I]: Logger is shutting down.
+[20200519 16:03:52.236 Server.cpp:139] [I]: bandwidth test report:
+[20200519 16:03:52.236 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 16:03:52.236 Server.cpp:149] [I]: [0] 9.999s       2.498Mbytes     1.999Mbits/sec     0.48ms   1871/1871 (100.00%) 
+[20200519 16:03:52.236 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 16:15:50.334 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 16:15:50.334 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 16:15:50.334 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 16:15:50.334 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 16:15:50.334 Server.cpp:172] [D]: init server on port[43210]
+[20200519 16:15:50.334 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 16:15:50.334 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 16:15:58.470 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 16:15:58.470 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 16:15:58.470 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 16:15:58.470 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 16:15:58.470 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 16:15:58.472 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 16:15:58.474 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 16:15:58.475 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 16:16:08.479 Client.cpp:203] [I]: bandwidth test report:
+[20200519 16:16:08.479 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 16:16:08.479 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       0.336ms   1871/1871 (100.0000%)
+[20200519 16:16:08.479 Client.cpp:45] [I]: client finish.
+[20200519 16:16:08.479 logger.h:88] [I]: Logger is shutting down.
+[20200519 16:16:08.478 Server.cpp:139] [I]: bandwidth test report:
+[20200519 16:16:08.478 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 16:16:08.479 Server.cpp:149] [I]: [0] 9.999s       2.498Mbytes     1.999Mbits/sec     0.336ms   1871/1871 (100.00%) 
+[20200519 16:16:08.479 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 16:27:12.426 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 16:27:12.426 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 16:27:12.426 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 16:27:12.426 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 16:27:12.427 Server.cpp:172] [D]: init server on port[43210]
+[20200519 16:27:12.428 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 16:27:12.428 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 16:27:29.943 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 16:27:29.943 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 16:27:29.943 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 16:27:29.943 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 16:27:29.943 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 16:27:29.944 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 16:27:29.945 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 16:27:29.945 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 16:27:39.945 Client.cpp:203] [I]: bandwidth test report:
+[20200519 16:27:39.945 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 16:27:39.945 Client.cpp:217] [I]: [0] 10s       2.497Mbytes     1.997Mbits/sec       0.511ms   1870/1870 (100.0000%)
+[20200519 16:27:39.945 Client.cpp:45] [I]: client finish.
+[20200519 16:27:39.946 logger.h:88] [I]: Logger is shutting down.
+[20200519 16:27:39.945 Server.cpp:139] [I]: bandwidth test report:
+[20200519 16:27:39.945 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 16:27:39.945 Server.cpp:149] [I]: [0] 9.993s       2.497Mbytes     1.999Mbits/sec     0.511ms   1870/1870 (100.00%) 
+[20200519 16:27:39.945 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 16:28:29.649 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 16:28:29.649 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 16:28:29.649 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 16:28:29.649 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 16:28:29.649 Server.cpp:172] [D]: init server on port[43210]
+[20200519 16:28:29.649 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 16:28:29.650 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 16:28:37.437 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 16:28:37.437 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 16:28:37.437 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 16:28:37.437 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 16:28:37.438 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 16:28:37.438 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 16:28:37.438 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 16:28:37.438 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 16:28:47.439 Client.cpp:203] [I]: bandwidth test report:
+[20200519 16:28:47.439 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 16:28:47.439 Client.cpp:217] [I]: [0] 10s       2.497Mbytes     1.997Mbits/sec       1.221ms   1870/1870 (100.0000%)
+[20200519 16:28:47.439 Client.cpp:45] [I]: client finish.
+[20200519 16:28:47.439 logger.h:88] [I]: Logger is shutting down.
+[20200519 16:28:47.438 Server.cpp:139] [I]: bandwidth test report:
+[20200519 16:28:47.438 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 16:28:47.438 Server.cpp:149] [I]: [0] 9.989s       2.497Mbytes     2.000Mbits/sec     1.221ms   1870/1870 (100.00%) 
+[20200519 16:28:47.439 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 17:30:43.752 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:30:43.752 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:30:43.753 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:30:43.753 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 17:30:43.753 Server.cpp:172] [D]: init server on port[43210]
+[20200519 17:30:43.753 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 17:30:43.753 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 17:30:52.031 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:30:52.031 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:30:52.031 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:30:52.031 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 17:30:52.031 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 17:30:52.032 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 17:30:52.032 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 17:30:52.032 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 17:31:02.036 Client.cpp:203] [I]: bandwidth test report:
+[20200519 17:31:02.036 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:31:02.036 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       0.478ms   1871/1871 (100.0000%)
+[20200519 17:31:02.036 Client.cpp:45] [I]: client finish.
+[20200519 17:31:02.036 logger.h:88] [I]: Logger is shutting down.
+[20200519 17:31:02.035 Server.cpp:139] [I]: bandwidth test report:
+[20200519 17:31:02.035 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:31:02.035 Server.cpp:149] [I]: [0] 9.999s       2.498Mbytes     1.999Mbits/sec     0.478ms   1871/1871 (100.00%) 
+[20200519 17:31:02.035 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 17:45:02.134 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:45:02.134 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:45:02.134 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:45:02.134 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 17:45:02.134 Server.cpp:172] [D]: init server on port[43210]
+[20200519 17:45:02.134 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 17:45:02.134 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 17:45:10.647 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:45:10.647 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:45:10.647 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:45:10.647 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 17:45:10.647 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 17:45:10.648 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 17:45:10.648 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 17:45:10.648 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 17:45:20.652 Client.cpp:203] [I]: bandwidth test report:
+[20200519 17:45:20.653 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:45:20.653 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       0.356ms   1871/1871 (100.0000%)
+[20200519 17:45:20.653 Client.cpp:45] [I]: client finish.
+[20200519 17:45:20.653 logger.h:88] [I]: Logger is shutting down.
+[20200519 17:45:20.652 Server.cpp:139] [I]: bandwidth test report:
+[20200519 17:45:20.652 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:45:20.652 Server.cpp:149] [I]: [0] 9.999s       2.498Mbytes     1.999Mbits/sec     0.356ms   1871/1871 (100.00%) 
+[20200519 17:45:20.652 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 17:48:08.592 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:48:08.592 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:48:08.592 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:48:08.592 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 17:48:08.592 Server.cpp:172] [D]: init server on port[43210]
+[20200519 17:48:08.592 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 17:48:08.592 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 17:48:17.093 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:48:17.093 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:48:17.093 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:48:17.093 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 17:48:17.093 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 17:48:17.094 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 17:48:17.095 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 17:48:17.095 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 17:48:27.100 Client.cpp:203] [I]: bandwidth test report:
+[20200519 17:48:27.100 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:48:27.100 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       0.314ms   1871/1871 (100.0000%)
+[20200519 17:48:27.100 Client.cpp:45] [I]: client finish.
+[20200519 17:48:27.100 logger.h:88] [I]: Logger is shutting down.
+[20200519 17:48:27.099 Server.cpp:139] [I]: bandwidth test report:
+[20200519 17:48:27.099 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:48:27.099 Server.cpp:149] [I]: [0] 9.999s       2.498Mbytes     1.999Mbits/sec     0.314ms   1871/1871 (100.00%) 
+[20200519 17:48:27.100 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 17:48:49.717 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:48:49.717 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:48:49.717 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:48:49.717 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 17:48:49.717 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 17:48:49.717 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 17:48:49.717 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 17:48:49.717 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 17:48:59.722 Client.cpp:203] [I]: bandwidth test report:
+[20200519 17:48:59.722 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:48:59.722 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       0.989ms   1871/1871 (100.0000%)
+[20200519 17:48:59.722 Client.cpp:45] [I]: client finish.
+[20200519 17:48:59.722 logger.h:88] [I]: Logger is shutting down.
+[20200519 17:48:59.721 Server.cpp:139] [I]: bandwidth test report:
+[20200519 17:48:59.722 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:48:59.722 Server.cpp:149] [I]: [0] 9.998s       2.498Mbytes     1.999Mbits/sec     0.989ms   1871/1871 (100.00%) 
+[20200519 17:48:59.722 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 17:57:49.326 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:57:49.326 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:57:49.326 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:57:49.326 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 17:57:49.326 Server.cpp:172] [D]: init server on port[43210]
+[20200519 17:57:49.326 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 17:57:49.326 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 17:57:57.530 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 17:57:57.530 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 17:57:57.530 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 17:57:57.530 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 17:57:57.530 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 17:57:57.530 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 17:57:57.530 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 17:57:57.530 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 17:58:07.534 Client.cpp:203] [I]: bandwidth test report:
+[20200519 17:58:07.534 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:58:07.534 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       0.348ms   1871/1871 (100.0000%)
+[20200519 17:58:07.534 Client.cpp:45] [I]: client finish.
+[20200519 17:58:07.534 logger.h:88] [I]: Logger is shutting down.
+[20200519 17:58:07.533 Server.cpp:139] [I]: bandwidth test report:
+[20200519 17:58:07.534 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 17:58:07.534 Server.cpp:149] [I]: [0] 9.998s       2.498Mbytes     1.999Mbits/sec     0.348ms   1871/1871 (100.00%) 
+[20200519 17:58:07.534 Server.cpp:168] [I]: bandwidthTest finished.
+[20200519 18:09:19.772 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 18:09:19.772 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 18:09:19.772 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 18:09:19.772 Server.cpp:235] [I]: Starting server on port=43210
+[20200519 18:09:19.772 Server.cpp:172] [D]: init server on port[43210]
+[20200519 18:09:19.772 UdpConnection.cpp:53] [D]: connect inited with local address [0.0.0.0:43210]
+[20200519 18:09:19.772 Server.cpp:179] [D]: server socket bind port[43210] success: 4
+[20200519 18:09:28.746 logger.h:99] [I]: Logger inited success: logFile [./application.log]
+[20200519 18:09:28.746 logger.h:103] [I]: Logger setting: stdOutOn[true] fileOutOn[true] useAsyn[false]
+[20200519 18:09:28.746 logger.h:104] [I]: Logger pattern: [%Y%m%d %H:%M:%S.%e %s:%#] %^[%L]%$: %v
+[20200519 18:09:28.746 Client.cpp:239] [I]: Starting send data to 127.0.0.1:43210
+[20200519 18:09:28.746 UdpConnection.cpp:59] [D]: connect inited with remote address [127.0.0.1:43210]
+[20200519 18:09:28.747 Client.cpp:141] [I]: send TestRequest, msgId=0 testType=2
+[20200519 18:09:28.748 Client.cpp:151] [I]: receive TestConfirm, result=1 reMsgId=0 testId=0
+[20200519 18:09:28.748 Client.cpp:174] [I]: bandwidthValue=262144, packetsPerSecond=187, packestPerGroup=1, packetsIntervalMs=5.347593582887701
+[20200519 18:09:38.753 Client.cpp:203] [I]: bandwidth test report:
+[20200519 18:09:38.753 Client.cpp:204] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 18:09:38.753 Client.cpp:217] [I]: [0] 10s       2.498Mbytes     1.998Mbits/sec       0.389ms   1871/1871 (100.0000%)
+[20200519 18:09:38.753 Client.cpp:45] [I]: client finish.
+[20200519 18:09:38.753 logger.h:88] [I]: Logger is shutting down.
+[20200519 18:09:38.752 Server.cpp:139] [I]: bandwidth test report:
+[20200519 18:09:38.752 Server.cpp:140] [I]: [ ID] Interval   Transfer   Bandwidth     Jitter   Lost/Total Datagrams
+[20200519 18:09:38.752 Server.cpp:149] [I]: [0] 9.999s       2.498Mbytes     1.999Mbits/sec     0.389ms   1871/1871 (100.00%) 
+[20200519 18:09:38.753 Server.cpp:168] [I]: bandwidthTest finished.
